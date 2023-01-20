@@ -84,7 +84,7 @@ input::placeholder {
   color: #868686;
 }
 
-ul {
+nav ul {
   display: flex;
 }
 ul li {

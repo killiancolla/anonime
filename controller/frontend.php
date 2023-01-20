@@ -5,7 +5,7 @@ require('model/frontend.php');
 function home()
 {
     
-    // $animes = getAllAnime();
+    $animes = getAllAnime();
     require('view/frontend/homeView.php');
     
 }
