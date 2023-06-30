@@ -1,4 +1,3 @@
-<?php $title = 'Mon blog'; ?>
 <?php ob_start(); ?>
 
     <div class="content">
@@ -14,11 +13,11 @@
         </div>
         <h2>New Release</h2>
         <div class="release">
-            <?php 
-            $isfirst = true; 
+            <?php
+            $isfirst = true;
             foreach($animes as $anime){
                 if($isfirst) {
-                    $isfirst = false; 
+                    $isfirst = false;
                 } else {
 ?>
             <div class="clickable">
